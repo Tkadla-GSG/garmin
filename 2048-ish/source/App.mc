@@ -3,8 +3,9 @@ using Toybox.WatchUi as Ui;
 using Engine;
 
 var mGame;
-var mFirstMove;
-var mWon;
+var mFirstMove = true;
+var mWon = false;
+var mPlayForever = false;
 
 class App extends Application.AppBase {
 
@@ -13,15 +14,15 @@ class App extends Application.AppBase {
     }
 
     function onStart(state) {   	
-    	mGame = Engine.loadGame();
-    	mFirstMove = Engine.isSame(mGame, Engine.EMPTY_GAME);
+    	$.mGame = Engine.loadGame();
+    	$.mFirstMove = Engine.isSame($.mGame, Engine.EMPTY_GAME);
     	
-    	checkGameWon(mGame);
-    	checkGameLost(mGame);
+    	checkGameWon($.mGame);
+    	checkGameLost($.mGame);
     }
 
     function onStop(state) {
-    	Engine.saveGame(mGame);
+    	Engine.saveGame($.mGame, $.mPlayForever);
     }
 
     function getInitialView() {
@@ -29,15 +30,15 @@ class App extends Application.AppBase {
     }
     
     function checkGameWon(board) {
-    	if (Engine.isWon(board)) {
-    		mWon = true;
+    	if (!$.mPlayForever && Engine.isWon(board)) {
+    		$.mWon = true;
 			Ui.pushView(new GameEndView(), new GameEndDelegate(), Ui.SLIDE_UP);
 		}
     }
     
     function checkGameLost(board) {
     	if (!Engine.canMove(board) && !Engine.canMerge(board)) {
-    		mWon = false;
+    		$.mWon = false;
     		Ui.pushView(new GameEndView(), new GameEndDelegate(), Ui.SLIDE_UP);
     	}
     }
@@ -45,58 +46,59 @@ class App extends Application.AppBase {
     function checkGame(board, copy) {
     	var gameChanged = !Engine.isSame(board, copy);
     	
-    	if (gameChanged || mFirstMove) {
-    		mGame = Engine.add(mGame);
-    		checkGameWon(mGame);
+    	if (gameChanged || $.mFirstMove) {
+    		$.mGame = Engine.add($.mGame);
+    		checkGameWon($.mGame);
     	} else {
-    		checkGameLost(mGame);
+    		checkGameLost($.mGame);
     	}
     	
-    	mFirstMove = false;
+    	$.mFirstMove = false;
     	Ui.requestUpdate();
     }
     
     function onNewGame() {
-    	mFirstMove = true;
-    	mGame = Engine.copyGame(Engine.EMPTY_GAME);
+    	$.mFirstMove = true;
+    	$.mPlayForever = false;
+    	$.mGame = Engine.copyGame(Engine.EMPTY_GAME);
     	Ui.requestUpdate();
     }
     
     function onUp() {
-    	var copy = Engine.copyGame(mGame);
+    	var copy = Engine.copyGame($.mGame);
     	
-    	var upBoard = Engine.rotateRight(Engine.rotateRight(Engine.rotateRight(mGame)));
+    	var upBoard = Engine.rotateRight(Engine.rotateRight(Engine.rotateRight($.mGame)));
     	var mergedBoard = Engine.merge(upBoard);
-    	mGame = Engine.rotateRight(mergedBoard);
+    	$.mGame = Engine.rotateRight(mergedBoard);
     	
-    	checkGame(mGame, copy);
+    	checkGame($.mGame, copy);
     }
     
     function onDown() {
-    	var copy = Engine.copyGame(mGame);
+    	var copy = Engine.copyGame($.mGame);
     	
-    	var downBoard = Engine.rotateRight(mGame);
+    	var downBoard = Engine.rotateRight($.mGame);
     	var mergedBoard = Engine.merge(downBoard);
-    	mGame = Engine.rotateRight(Engine.rotateRight(Engine.rotateRight(mergedBoard)));
+    	$.mGame = Engine.rotateRight(Engine.rotateRight(Engine.rotateRight(mergedBoard)));
     	
-    	checkGame(mGame, copy);
+    	checkGame($.mGame, copy);
     }
     
     function onLeft() {
-    	var copy = Engine.copyGame(mGame);
+    	var copy = Engine.copyGame($.mGame);
     	
-    	mGame = Engine.merge(mGame);
+    	$.mGame = Engine.merge($.mGame);
     	
-    	checkGame(mGame, copy);
+    	checkGame($.mGame, copy);
     }
     
     function onRight() {
-    	var copy = Engine.copyGame(mGame);
+    	var copy = Engine.copyGame($.mGame);
     	
-    	var rightBoard = Engine.rotateRight(Engine.rotateRight(mGame));
+    	var rightBoard = Engine.rotateRight(Engine.rotateRight($.mGame));
     	var mergedBoard = Engine.merge(rightBoard);
-    	mGame = Engine.rotateRight(Engine.rotateRight(mergedBoard));
+    	$.mGame = Engine.rotateRight(Engine.rotateRight(mergedBoard));
     	
-    	checkGame(mGame, copy);
+    	checkGame($.mGame, copy);
     }
 }

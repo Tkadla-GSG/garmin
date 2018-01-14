@@ -1,7 +1,8 @@
 <strings>
-    <string id="AppName">2048-ish</string>
+    <string id="AppName">2048</string>
     <string id="Start">Tap to start</string>
     <string id="Win">Victory!</string>
     <string id="Lost">Game lost.</string>
-    <string id="NewGame">New Game</string>
+    <string id="NewGame">New game</string>
+    <string id="Continue">Continue game?</string>
 </strings>

@@ -2,6 +2,7 @@ using Util;
 
 module Engine {
 
+	const FOREVER = "forever";
 	const LINE_0 = "game_line_0";
 	const LINE_1 = "game_line_1";
 	const LINE_2 = "game_line_2";
@@ -22,6 +23,10 @@ module Engine {
 	const COLOR_512 = 0xFFAA00;
 	const COLOR_1024 = 0xFF5555;
 	const COLOR_2048 = 0xFF5500;
+	const COLOR_4096 = 0xAAFFFF;
+	const COLOR_8192 = 0x55FF55;
+	const COLOR_16384 = 0xFF55FF;
+	const COLOR_32768 = 0xFF0000;
 	
 	const EMPTY = 0;
 	const MIN = 2;
@@ -47,13 +52,23 @@ module Engine {
 	];
 	*/
 	
+	// Best game
+	/*
+	const EMPTY_GAME = [
+		[32768, 16384, 8192, 4096],
+		[2048, 1024, 512, 256],
+		[128, 64, 32, 16],
+		[8, 4, 2, 0],
+	];
+	*/
+	
 	const EMPTY_GAME = [
 		[EMPTY, EMPTY, EMPTY, EMPTY],
 		[EMPTY, EMPTY, EMPTY, EMPTY],
 		[EMPTY, EMPTY, EMPTY, EMPTY],
 		[EMPTY, EMPTY, EMPTY, EMPTY],
 	];
-	
+
 	function getTileColor(value) {
 		switch(value) {
 			case 0: {return COLOR_EMPTY;}
@@ -68,6 +83,10 @@ module Engine {
 			case 512: {return COLOR_512;}
 			case 1024: {return COLOR_1024;}
 			case 2048: {return COLOR_2048;}
+			case 4096: {return COLOR_4096;}
+			case 8192: {return COLOR_8192;}
+			case 16384: {return COLOR_16384;}
+			case 32768: {return COLOR_32768;}
 		}
 	}
 	
@@ -142,7 +161,7 @@ module Engine {
 	function isWon(board) {
 		for (var i = 0; i < board.size(); i++) {
 			for (var j = 0; j < board[i].size(); j++) {
-				if (board[i][j] == TARGET) {
+				if (board[i][j] >= TARGET) {
 					return true;
 				}
 			}
@@ -209,11 +228,12 @@ module Engine {
         return mergedBoard;
     }
     
-    function saveGame(game) {
+    function saveGame(game, playForever) {
     	Util.setProperty(LINE_0, game[0]);
     	Util.setProperty(LINE_1, game[1]);
     	Util.setProperty(LINE_2, game[2]);
     	Util.setProperty(LINE_3, game[3]);
+    	Util.setProperty(FOREVER, playForever);
     }
     
     function loadGame() {
@@ -225,6 +245,10 @@ module Engine {
     	if (line0 == null || line1 == null || line2 == null || line3 == null) {
     		return copyGame(EMPTY_GAME);
     	}
+    	
+    	var forever = Util.getProperty(FOREVER);
+    	$.mPlayForever = forever == null ? false : forever;
+    	
     	return [
     		line0,
     		line1,
