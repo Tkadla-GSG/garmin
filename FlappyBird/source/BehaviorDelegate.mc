@@ -7,18 +7,9 @@ class BehaviorDelegate extends Ui.BehaviorDelegate {
         BehaviorDelegate.initialize();
     }
     
-    function onKeyPressed(keyEvent) {
-    	switch(keyEvent.getKey()) {
-    		case Ui.KEY_LAP:
-    		case Ui.KEY_ENTER:
-    			jump();
-    	}
-    }
-    
-    function onTap(clickEvent) {
-    	if (clickEvent.getType() == Ui.CLICK_TYPE_TAP) {
-	   		jump();
-    	}
+    function onSelect() {
+    	jump();
+    	return true;
     }
     
     function jump() {
