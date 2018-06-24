@@ -15,7 +15,7 @@ module Engine {
 	
 	const GRAVITY = 0.00016; // px per milisecond
 	
-	const PIPE_SPEED = 0.1; // px per milisecond
+	const PIPE_SPEED = 0.08; // px per milisecond
 	const PIPE_WIDTH = 30;
 	const PIPE_HIGHLIGHT_WIDTH = 5;
 	const PIPE_HOLE = 45;
