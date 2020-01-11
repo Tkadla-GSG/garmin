@@ -1,12 +1,4 @@
 <drawables>
-    <bitmap id="Bird" filename="bird.png" dithering="none">
-    	<palette disableTransparency="false">
-            <color>FFFFFF</color>
-            <color>FF0000</color>
-            <color>FFAA00</color>
-            <color>000000</color>
-        </palette>
-    </bitmap>
     <bitmap id="Logo" filename="logo.png" dithering="none">
     	<palette disableTransparency="false">
             <color>FFFFFF</color>

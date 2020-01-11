@@ -18,7 +18,7 @@ module Engine {
 	const PIPE_SPEED = 0.08; // px per milisecond
 	const PIPE_WIDTH = 30;
 	const PIPE_HIGHLIGHT_WIDTH = 5;
-	const PIPE_HOLE = 45;
+	const PIPE_HOLE = 47;
 	const PIPE_HOLE_2 = PIPE_HOLE/2;
 	
 	const GROUND_THICKNESS = 10;
