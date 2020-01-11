@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidApp.mc" id="3" lineNum="6" pc="268435456" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidApp.mc" id="3" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidApp.mc" id="4" lineNum="10" pc="268435479" symbol="onStart"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidApp.mc" id="5" lineNum="13" pc="268435484" symbol="onStop"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidApp.mc" id="6" lineNum="16" pc="268435489" symbol="getInitialView"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidApp.mc" id="6" lineNum="17" pc="268435493" symbol="getInitialView"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="8" lineNum="10" pc="268435561" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="8" lineNum="11" pc="268435565" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="8" lineNum="13" pc="268435583" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="8" lineNum="15" pc="268435608" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="8" lineNum="16" pc="268435625" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="9" lineNum="24" pc="268435648" symbol="onHold"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="9" lineNum="25" pc="268435652" symbol="onHold"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="9" lineNum="26" pc="268435665" symbol="onHold"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="9" lineNum="28" pc="268435684" symbol="onHold"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="9" lineNum="29" pc="268435695" symbol="onHold"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="9" lineNum="31" pc="268435722" symbol="onHold"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="10" lineNum="35" pc="268435747" symbol="onTap"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="10" lineNum="36" pc="268435751" symbol="onTap"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="10" lineNum="37" pc="268435772" symbol="onTap"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="10" lineNum="38" pc="268435799" symbol="onTap"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="11" lineNum="41" pc="268435814" symbol="onRelease"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\BehaviorDelegate.mc" id="11" lineNum="42" pc="268435818" symbol="onRelease"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="13" lineNum="7" pc="268435843" symbol="getRandom"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="13" lineNum="8" pc="268435855" symbol="getRandom"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="14" lineNum="11" pc="268435902" symbol="getRandomAngle"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="14" lineNum="12" pc="268435914" symbol="getRandomAngle"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="15" lineNum="15" pc="268435956" symbol="isRound"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="15" lineNum="16" pc="268435968" symbol="isRound"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Util.mc" id="15" lineNum="17" pc="268435985" symbol="isRound"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Engine.mc" id="17" lineNum="37" pc="268436008" symbol="getReversedDirection"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\Engine.mc" id="17" lineNum="38" pc="268436020" symbol="getReversedDirection"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="19" lineNum="47" pc="268436036" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="19" lineNum="48" pc="268436040" symbol="initialize"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="20" lineNum="52" pc="268436059" symbol="onLayout"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="20" lineNum="53" pc="268436063" symbol="onLayout"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="20" lineNum="55" pc="268436100" symbol="onLayout"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="20" lineNum="57" pc="268436114" symbol="onLayout"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="20" lineNum="59" pc="268436137" symbol="onLayout"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="20" lineNum="60" pc="268436173" symbol="onLayout"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="63" pc="268436218" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="64" pc="268436222" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="65" pc="268436241" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="66" pc="268436263" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="67" pc="268436282" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="69" pc="268436304" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="71" pc="268436326" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="72" pc="268436359" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="73" pc="268436392" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="75" pc="268436416" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="76" pc="268436445" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="77" pc="268436465" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="78" pc="268436491" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="79" pc="268436518" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="80" pc="268436585" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="82" pc="268436609" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="83" pc="268436626" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="85" pc="268436655" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="86" pc="268436675" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="87" pc="268436698" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="88" pc="268436731" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="89" pc="268436767" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="90" pc="268436784" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="91" pc="268436804" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="92" pc="268436837" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="21" lineNum="93" pc="268436853" symbol="init"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="22" lineNum="96" pc="268436883" symbol="timerCallback"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="22" lineNum="97" pc="268436887" symbol="timerCallback"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="101" pc="268436904" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="102" pc="268436908" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="103" pc="268436931" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="104" pc="268436956" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="106" pc="268436972" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="107" pc="268437012" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="110" pc="268437024" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="111" pc="268437064" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="114" pc="268437116" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="115" pc="268437132" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="116" pc="268437199" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="119" pc="268437266" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="120" pc="268437290" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="121" pc="268437304" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="125" pc="268437321" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="126" pc="268437349" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="127" pc="268437435" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="131" pc="268437468" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="132" pc="268437527" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="133" pc="268437620" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="138" pc="268437656" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="139" pc="268437696" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="142" pc="268437744" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="143" pc="268437760" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="144" pc="268437802" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="145" pc="268437828" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="148" pc="268437854" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="149" pc="268437882" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="150" pc="268437906" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="153" pc="268437946" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="154" pc="268437974" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="155" pc="268437998" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="160" pc="268438038" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="161" pc="268438151" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="162" pc="268438181" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="168" pc="268438217" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="169" pc="268438257" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="174" pc="268438325" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\Garmin\\repository\\Arkanoid\\source\\ArkanoidView.mc" id="23" lineNum="175" pc="268438365" symbol="onUpdate"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="31" lineNum="20" pc="268438446" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="76" method="true" symbol="getRandom"/>
+<entry field="true" id="42" symbol="BALL_SPEED_NORMAL"/>
+<entry id="13" module="true" symbol="Util"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="72" symbol="myTimer"/>
+<entry field="true" id="22" symbol="mBallPosY"/>
+<entry field="true" id="21" symbol="mBallPosX"/>
+<entry field="true" id="36" symbol="HERO_SIZE_TINY"/>
+<entry field="true" id="60" symbol="FRAME_RATE"/>
+<entry field="true" id="49" symbol="PI_4"/>
+<entry field="true" id="50" symbol="PI_2"/>
+<entry field="true" id="48" symbol="DIRECTION_DOWN"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="16" symbol="mPlayerPosMin"/>
+<entry field="true" id="8388893" symbol="PI"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="39" symbol="HERO_HEIGHT_2"/>
+<entry field="true" id="53" symbol="PI3"/>
+<entry field="true" id="52" symbol="PI2"/>
+<entry field="true" id="62" symbol="width_2"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="46" symbol="DIRECTION_NONE"/>
+<entry field="true" id="17" symbol="mPlayerPosMax"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="58" method="true" symbol="MainLayout"/>
+<entry field="true" id="8389760" symbol="centerX"/>
+<entry field="true" id="33" symbol="HERO_SPEED_FAST"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388708" object="true" symbol="BehaviorDelegate"/>
+<entry id="77" method="true" symbol="getRandomAngle"/>
+<entry id="14" module="true" symbol="Engine"/>
+<entry field="true" id="61" symbol="CENTER"/>
+<entry field="true" id="35" symbol="HERO_SIZE_2_NORMAL"/>
+<entry field="true" id="18" symbol="mPlayerDirection"/>
+<entry id="8388649" module="true" object="true" symbol="Test"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry field="true" id="26" symbol="mMaxBallPosY"/>
+<entry field="true" id="24" symbol="mMaxBallPosX"/>
+<entry field="true" id="40" symbol="BALL_RADIUS_NORMAL"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="32" symbol="HERO_SPEED_NORMAL"/>
+<entry field="true" id="59" symbol="AppName"/>
+<entry field="true" id="28" symbol="mBallHorizontalDirection"/>
+<entry field="true" id="51" symbol="PI_3_4"/>
+<entry field="true" id="70" symbol="thisFrame"/>
+<entry field="true" id="66" symbol="minBallHeight"/>
+<entry field="true" id="20" symbol="mMaxPlayerPos"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry id="54" method="true" symbol="getReversedDirection"/>
+<entry field="true" id="57" symbol="LauncherIcon"/>
+<entry field="true" id="30" symbol="mGameOver"/>
+<entry field="true" id="45" symbol="DIRECTION_RIGHT"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="65" symbol="playerY"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="25" symbol="mMinBallPosY"/>
+<entry field="true" id="23" symbol="mMinBallPosX"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="64" symbol="fieldWidth"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="19" symbol="mMinPlayerPos"/>
+<entry id="12" object="true" symbol="ArkanoidApp"/>
+<entry field="true" id="67" symbol="minBallCollisionHeight"/>
+<entry field="true" id="68" symbol="maxBallCollisionHeight"/>
+<entry field="true" id="47" symbol="DIRECTION_TOP"/>
+<entry field="true" id="69" symbol="lastFrame"/>
+<entry id="78" method="true" symbol="isRound"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry field="true" id="38" symbol="HERO_HEIGHT"/>
+<entry field="true" id="63" symbol="height_2"/>
+<entry id="56" module="true" symbol="Layouts"/>
+<entry field="true" id="75" symbol="mController"/>
+<entry field="true" id="37" symbol="HERO_SIZE_2_TINY"/>
+<entry field="true" id="43" symbol="BALL_SPEED_FAST"/>
+<entry field="true" id="44" symbol="DIRECTION_LEFT"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389099" method="true" symbol="onHold"/>
+<entry id="74" method="true" symbol="timerCallback"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry id="55" module="true" symbol="Menus"/>
+<entry field="true" id="34" symbol="HERO_SIZE_NORMAL"/>
+<entry id="73" method="true" symbol="init"/>
+<entry id="31" object="true" symbol="ArkanoidView"/>
+<entry field="true" id="29" symbol="mBallVerticalDirection"/>
+<entry field="true" id="71" symbol="dt"/>
+<entry id="8389100" method="true" symbol="onRelease"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="15" symbol="mPlayerDelta"/>
+<entry field="true" id="27" symbol="mBallAngle"/>
+<entry field="true" id="8388894" symbol="E"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="41" symbol="BALL_RADIUS_TINY"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435647" name="device" stackId="1" startPc="268435565"/>
+<entry endPc="268435746" name="deltaX" stackId="3" startPc="268435652"/>
+<entry endPc="268435746" name="coords" stackId="2" startPc="268435652"/>
+<entry endPc="268435747" name="clickEvent" stackId="1" startPc="268435648"/>
+<entry endPc="268435814" name="clickEvent" stackId="1" startPc="268435747"/>
+<entry endPc="268435843" name="clickEvent" stackId="1" startPc="268435814"/>
+<entry endPc="268435902" name="max" stackId="2" startPc="268435843"/>
+<entry endPc="268435902" name="min" stackId="1" startPc="268435843"/>
+<entry endPc="268436007" name="device" stackId="1" startPc="268435968"/>
+<entry endPc="268436036" name="direction" stackId="1" startPc="268436008"/>
+<entry endPc="268436218" name="dc" stackId="1" startPc="268436059"/>
+<entry endPc="268436882" name="isRound" stackId="2" startPc="268436222"/>
+<entry endPc="268436882" name="screenPadding" stackId="3" startPc="268436222"/>
+<entry endPc="268436883" name="dc" stackId="1" startPc="268436218"/>
+<entry endPc="268438446" name="dc" stackId="1" startPc="268436904"/>
+<entry endPc="268438459" name="dc" stackId="1" startPc="268438446"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="ArkanoidApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="ArkanoidApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="ArkanoidApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="ArkanoidApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BehaviorDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHold" parent="BehaviorDelegate">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTap" parent="BehaviorDelegate">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onRelease" parent="BehaviorDelegate">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getRandom" parent="Util">
+<param id="min"/>
+<param id="max"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getRandomAngle" parent="Util">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isRound" parent="Util">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getReversedDirection" parent="Engine">
+<param id="direction"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="ArkanoidView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="ArkanoidView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="init" parent="ArkanoidView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="timerCallback" parent="ArkanoidView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="ArkanoidView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="111" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="382" parentId="globals" symbolId="Engine" type="module"/>
+<dataEntry offset="605" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="684" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="723" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="754" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="785" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="816" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="855" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="894" parentId="globals" symbolId="ArkanoidView" type="class"/>
+<dataEntry offset="1093" parentId="globals" symbolId="Test" type="module"/>
+<dataEntry offset="1124" parentId="globals" symbolId="BehaviorDelegate" type="class"/>
+<dataEntry offset="1211" parentId="globals" symbolId="Util" type="module"/>
+<dataEntry offset="1266" parentId="globals" symbolId="ArkanoidApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
