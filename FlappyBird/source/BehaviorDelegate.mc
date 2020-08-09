@@ -17,7 +17,7 @@ class BehaviorDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenu() {
-    	var menu = new Menu();
+    	var menu = new Ui.Menu();
     	menu.setTitle(Ui.loadResource(Rez.Strings.AppName));
     	menu.addItem(Ui.loadResource(Rez.Strings.Best) + $.mBest, :Item1);
         Ui.pushView(menu, new MenuDelegate(), Ui.SLIDE_UP);

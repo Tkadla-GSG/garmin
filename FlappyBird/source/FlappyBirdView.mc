@@ -1,6 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 using Toybox.Attention;
+using Toybox.Timer;
 using Engine;
 
 class FlappyBirdView extends Ui.View {
