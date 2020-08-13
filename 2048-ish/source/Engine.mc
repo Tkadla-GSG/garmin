@@ -3,6 +3,7 @@ using Util;
 module Engine {
 
 	const FOREVER = "forever";
+
 	const LINE_0 = "game_line_0";
 	const LINE_1 = "game_line_1";
 	const LINE_2 = "game_line_2";
@@ -30,8 +31,10 @@ module Engine {
 	
 	const EMPTY = 0;
 	const MIN = 2;
+	const MIN_ALT = 4;
 	const TARGET = 2048;
 	
+	const RAND_MIN_THRESHOLD = 20;	
 	// Won game
 	/*
 	const EMPTY_GAME = [
@@ -212,7 +215,8 @@ module Engine {
 		}
 		
 		var coord = coords[Util.getRandom(0, coords.size() - 1)];
-		board[coord[0]][coord[1]] = MIN;
+		var tileValue = Util.getRandom(0, 100) < RAND_MIN_THRESHOLD ? MIN_ALT : MIN;
+		board[coord[0]][coord[1]] = tileValue;
 		return board;
 	}
 	
